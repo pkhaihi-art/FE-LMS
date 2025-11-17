@@ -1,0 +1,95 @@
+body {
+    position: relative;
+}
+.imgs{
+    position: relative;
+}
+.react,
+.star,
+.person,
+.sttar,
+.figma,
+.circular {
+    position: absolute;
+}
+
+.circular {
+    left: 60px;
+}
+
+.star {
+    top:25px;
+    left: 300px;
+    width: 50px;
+}
+
+.person {
+    height: 550px;
+    right: 60px;
+}
+
+.react {
+    top: 290px;
+    right: 535px;
+    border-radius: 4px;
+    width: 55px;
+    height: 55px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.sttar {
+    left: 540px;
+    top: 470px;
+}
+
+.figma {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+    right: 65px;
+    top: 400px;
+    border-radius: 7px;
+    width: 45px;
+    height: 60px;
+}
+
+@media (max-width:1200px) {
+    .person {
+        width: 450px;
+        height: 500px;
+    }
+
+    .react {
+        top: 600px;
+    }
+}
+
+@media (max-width:1200px) {
+    .person {
+        width: 420px;
+    }
+}
+
+@media (max-width:1085px) {
+    .person {
+        top: 570px;
+    }
+}
+
+@media (max-width:800px) {
+    .figma {
+        top: 980px;
+    }
+
+    .person {
+        left: 50px;
+    }
+}
+
+@media (max-width:700px) {
+    .sttar {
+        top: 800px;
+    }
+
+    .person {
+        left: 50px;
+    }
+}
